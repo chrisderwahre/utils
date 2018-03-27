@@ -1,0 +1,36 @@
+author: ChrisderWahre
+name: Utils
+description: A personal plugin for my private server.
+version: 1.0.7
+website: https://chris-coding.eu
+
+main: de.cdw.utils.cdwUtils
+
+commands:
+  gm:
+    description: Changes the Gamemode.
+    usage: /gm <gamemode>
+  biome:
+    description: Gets the Player's Biome.
+    usage: /biome
+  seed:
+    description: Gets the Player's Seed.
+    usage: /seed
+  xyz:
+    description: Gets the Player's Location.
+    usage: /xyz
+  ping:
+    description: Gets the Player's Ping.
+    usage: /ping
+  ct:
+  	description: Open's a Crafting Table.
+    usage: /ct
+  craft:
+  	description: Open's a Crafting Table.
+    usage: /craft
+  ec:
+  	description: Open's a Enderchest.
+    usage: /ec
+  enderchest:
+  	description: Open's a Enderchest.
+    usage: /enderchest
